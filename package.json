@@ -1,0 +1,37 @@
+{
+  "name": "instagram-scraper-bright-data",
+  "version": "1.0.0",
+  "description": "Instagram scraper using Bright Data Model-Context-Protocol",
+  "main": "index.js",
+  "bin": {
+    "instagram-scraper": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node cli.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "instagram",
+    "scraper",
+    "bright-data",
+    "web-scraping",
+    "social-media"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "puppeteer": "^19.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "jest": "^29.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
